@@ -9,7 +9,7 @@ mongoose.connect('mongodb+srv://rasedul20:rasedul20@telegramproject.gwtce.mongod
 const newSchema = new mongoose.Schema({
     
     userId: {
-        type: Number
+        type: String
     },
     tg_name: {
         type: String
@@ -18,7 +18,7 @@ const newSchema = new mongoose.Schema({
         type: String
     },
     sub_count: {
-        type: Number
+        type: String
     },
     email: {
         type: String
